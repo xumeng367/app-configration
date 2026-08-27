@@ -1,4 +1,4 @@
 build:
-  name: "github.prod"
-  version: "1.0.1.github.prod"
+  name: "update github.prod"
+  version: "1.0.2.github.prod"
   versionCode: "333333"
