@@ -1,0 +1,4 @@
+build:
+  name: "github"
+  version: "1.0.1.github"
+  versionCode: "111111"
