@@ -8,19 +8,19 @@ spring:
               #              uri: http://user-service
               uri: lb://user-service
               predicates:
-                - Path=/api/users/**
+                - Path=/api/users,/api/users/**
 
             - id: product-service
               #              uri: http://user-service
               uri: lb://product-service
               predicates:
-                - Path=/api/products/**
+                - Path=/api/products,/api/products/**
 
             - id: order-service
               #              uri: http://user-service
               uri: lb://order-service
               predicates:
-                - Path=/api/orders/**
+                - Path=/api/orders,/api/orders/**
 
             - id: eureka-dashboard-home
               uri: ${EUREKA_SERVER_URL:http://localhost:8761}
